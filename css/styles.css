@@ -100,7 +100,6 @@ body {
   .grid-dot {
     width: 3px;
     height: 3px;
-    background-color: var(--black);
     border-radius: 50%;
     position: relative;
   }
@@ -127,6 +126,14 @@ body {
     /*color: #ff6600;
     /*color:#7D0BFF;*/
     /*transform: scale(1.2);*/
+  }
+
+  [data-theme="light"] .grid-dot {
+    background-color: var(--black);
+  }
+
+  [data-theme="dark"] .grid-dot {
+    background-color: var(--white);
   }
 
   [data-theme="dark"] .revealed {
