@@ -127,3 +127,13 @@ document.addEventListener('DOMContentLoaded', function() {
   
   console.log("Spotlight hover script initialized");
 });
+
+
+//INVERT
+document.addEventListener('click', () => {
+  const body = document.body;
+  const currentTheme = body.getAttribute('data-theme');
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  body.setAttribute('data-theme', newTheme);
+});
+
