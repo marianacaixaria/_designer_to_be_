@@ -61,6 +61,10 @@ body {
   color: var(--white-opacity);
 }
 
+[data-theme="light"] a {
+  color: var(--black);
+}
+
   /*NAV, FOOTER, LINKS*/
     nav, footer {
       position: fixed;
@@ -77,6 +81,7 @@ body {
 
     a {
       text-decoration: none;
+      color: black;
     }
 
     a:hover {
@@ -222,7 +227,7 @@ body {
     height: 5%;
     display: flex;
   }
-
+  
   /* GRID POSITIONS */
 
   .serial-grid {
