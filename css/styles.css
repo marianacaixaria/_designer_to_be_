@@ -318,3 +318,8 @@ body {
     grid-row: 11;
     grid-column: 9 / 11
   }
+
+  #lightdark {
+    grid-row: 10;
+    grid-column: 5 / 7
+  }
